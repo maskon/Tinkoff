@@ -70,7 +70,6 @@ h6 {
     font-size: inherit;
 }
 
-
 /*--------------------*/
 body {
     margin: 0;
@@ -87,7 +86,6 @@ body {
     margin: 0 auto;
     padding: 0 15px;
 }
-
 
 /*Header*/
 
@@ -144,8 +142,10 @@ body {
     height: 0px;
     left: -20px;
     top: 12px;
+
     border: 1px solid #525252;
     transform: rotate(90deg);
+
 }
 
 .nav__link {
@@ -162,7 +162,6 @@ body {
 .nav__link:hover {
     color: #002dd4;
 }
-
 
 /* Burger */
 
@@ -225,6 +224,7 @@ body {
     transform-origin: left bottom;
     transform: rotate(-45deg) translate3d(0px, 5.5px, 0);
 }
+
 
 
 /* Media
@@ -561,7 +561,6 @@ body {
         font-size: 18px;
         margin: -10px 0 5px 0;
     }
-
     .content__flex {
         flex-direction: column;
     }
@@ -595,23 +594,24 @@ body {
     .content__btn-mob {
         display: none;
     }
-    
+
     .btn {
         font-size: 18px;
         line-height: 19px;
         padding: 10px 25px;
     }
+}
 
 @media (max-width: 432px) {
-    
+
     .content__colum {
         justify-content: space-between;
     }
-    
+
     .content__body, .content__body-R {
         font-size: 16px;
     }
-    
+
     .content__button {
         margin: 0;
     }
@@ -654,7 +654,6 @@ body {
 .list {
     position: relative;
 }
-    
 .tabs li:before {
     content: "";
     position: absolute;
@@ -705,7 +704,6 @@ body {
     object-fit: cover
 }
 
-    
 /* Media */
 
 @media (max-width: 991px) {
@@ -716,7 +714,7 @@ body {
 }
 
 @media (max-width: 767px) {
-    
+
     .tabs {
         margin-bottom: 25px;
     }
@@ -728,13 +726,13 @@ body {
         font-size: 18px;
         line-height: 1.2;
     }
-    
+
     .map-img {
         width: 22px;
         height: 22px;
         object-fit: cover;
     }
-    
+
     .js-tab-content.active {
         padding: 0;
     }
@@ -746,40 +744,39 @@ body {
         margin: 0 10px 25px 10px;
     }
 }
-    
+
 @media (max-width: 432px) {
-        
+
     .map__btn {
         font-size: 23px;
         margin: 0 10px 15px 10px;
     }
-    
+
     .map__title {
         font-size: 20px;
     }
-    
+
     .map__title:first-child {
         margin: -10px 0 10px 0;
     }
-    
+
     .map__cubtitle {
         font-size: 16px;
     }
-    
+
     .tabs li {
         font-size: 16px;
         margin: 0 0 18px 15px;
     }
-    
+
     .tabs li:before {
         margin: 5px 0 0 0;
     }
-    
+
     .map__btn-bottom {
         margin: 4px 0px;
     }
 }
-    
 
 /* Rate */
 
@@ -839,16 +836,16 @@ body {
 }
 
 @media (max-width: 767px) {
-    
+
     .title {
         font-size: 26px;
         line-height: 34px;
     }
-    
+
     .rate__title {
         margin: 10px 0;
     }
-    
+
     .rate__body {
         display: flex;
         justify-content: space-between;
@@ -867,25 +864,24 @@ body {
         line-height: 18px;
         margin: 10px 8px 0px 8px;
     }
-    
+
     .rate__btn-img img {
         width: 20px;
         height: 20px;
     }
 }
-    
+
 @media (max-width: 767px) {
     .rate__body {
         font-size: 14px;
         line-height: 16px;
     }
-    
+
     .requirements__title {
         margin: 0;
     }
 }
 
-    
 /* Reviews */
 
 .reviews__title {
@@ -954,58 +950,59 @@ body {
     .reviews__title {
         padding: 0px 0 11px 0;
     }
-    
+
     .reviews__item {
         padding: 5px;
     }
-    
+
     .reviews__item img {
         width: 20px;
         height: 20px;
     }
-    
+
     .reviews__name {
         font-size: 18px;
         margin-left: 20px;
     }
-    
+
     .reviews__subtitle {
         font-size: 20px;
         line-height: 23px;
         padding: 0 5px 10px 5px;
     }
-    
+
     .reviews__text {
         font-size: 15px;
         line-height: 135%;
         padding: 0 5px 10px 5px;
     }
-    
+
     .reviews__link {
         font-size: 15px;
         line-height: 18px;
         margin-left: 10px;
     }
-    
+
     .reviews__btn {
         margin: 15px 0 15px 0;
     }
-    
+
     .reviews__subtitle-bottom {
         font-size: 24px;
         line-height: 26px;
         margin: 0 0 8px 0;
     }
-    
+
     .form__input-reviews {
         margin: 5px 0 15px 0;
     }
-    
+
     .form-reviews img {
         width: 20px;
         height: 20px;
     }
 }
+
 
 
 /* Form */
@@ -1081,6 +1078,7 @@ textarea:focus:-ms-input-placeholder {
 @media (max-width: 767px) {
 
     .reviews__btn {
+        width: 100%;
         margin: 23px 0 30px 0;
     }
 
@@ -1095,7 +1093,7 @@ textarea:focus:-ms-input-placeholder {
 
     .form__input-reviews {
         width: 100%;
-        margin: 15px 0 25px 0;
+        margin: 0px 0 10px 0;
     }
 
     .btn-reviews {
@@ -1138,6 +1136,8 @@ textarea:focus:-ms-input-placeholder {
 
 
 /* Credit cards */
+
+
 
 .cards__title {
     font-size: 40px;
@@ -1203,6 +1203,8 @@ textarea:focus:-ms-input-placeholder {
 }
 
 
+
+
 /* Слайдер */
 
 .cards__img img {
@@ -1254,6 +1256,8 @@ textarea:focus:-ms-input-placeholder {
 
 /* Media */
 
+/* Media */
+
 @media (max-width: 991px) {
 
     .cards__title {
@@ -1272,7 +1276,7 @@ textarea:focus:-ms-input-placeholder {
     .cards__body {
         height: 435px;
     }
-    
+
     .cards__title {
         font-size: 28px;
         line-height: 32px;
@@ -1308,7 +1312,7 @@ textarea:focus:-ms-input-placeholder {
     }
 }
 
-    
+
 /* Helpful information */
 
 .information {
@@ -1400,13 +1404,13 @@ textarea:focus:-ms-input-placeholder {
 }
 
 /* Media */
-    
+
 @media (max-width: 767px) {
 
     .information {
         margin-bottom: 25px;
     }
-    
+
     .block__title {
         font-size: 30px;
         line-height: 32px;
@@ -1417,27 +1421,34 @@ textarea:focus:-ms-input-placeholder {
         font-size: 18px;
         line-height: 24px;
         padding: 10px 30px 10px 10px;
+        border: 1px solid #989a9f;
     }
-    
+
+    .block__subtitle:first-child {
+        border: 1px solid #989a9f;
+    }
+
+
     .block__subtitle:after {
         top: 17px;
         right: 7px;
     }
-    
+
     .block__subtitle:before {
         top: 21px;
         right: 16px;
     }
-    
+
     .block__subtitle.active:before {
         top: 17px;
     }
-    
+
     .block__text {
         font-size: 16px;
+        border: 1px solid #989a9f;
     }
 }
-    
+
 
 /* Ready solutions */
 
@@ -1495,7 +1506,6 @@ textarea:focus:-ms-input-placeholder {
     text-decoration: underline;
 }
 
-    
 /* Media */
 
 @media (max-width: 991px) {
@@ -1507,7 +1517,7 @@ textarea:focus:-ms-input-placeholder {
     .solutions__colum {
         flex: 0 1 50%;
     }
-    
+
     .solutions__title {
         font-size: 30px;
         line-height: 34px;
@@ -1526,11 +1536,11 @@ textarea:focus:-ms-input-placeholder {
 }
 
 @media (max-width: 767px) {
-    
+
     .solutions {
         margin-bottom: 20px;
     }
-    
+
     .solutions__colum {
         flex: 0 1 100%;
     }
@@ -1586,7 +1596,7 @@ textarea:focus:-ms-input-placeholder {
 }
 
 @media (max-width: 540px) {
-    
+
 
     .solutions__text {
         font-size: 18px;
@@ -1612,8 +1622,8 @@ textarea:focus:-ms-input-placeholder {
 }
 
 .footer__title {
-    font-size: 15px;
-    line-height: 18px;
+    font-size: 18px;
+    line-height: 17px;
     color: #FFFFFF;
     padding: 25px 0 30px 0;
 }
@@ -1639,15 +1649,15 @@ textarea:focus:-ms-input-placeholder {
         padding: 10px 0;
     }
 }
-    
+
 @media (max-width: 432px) {
-        
+
     .footer__title {
         padding: 2px 0 3px 0;
-    }  
+    }
 }
 
-    
+
 /* Modals */
 
 .modal {
@@ -1668,6 +1678,7 @@ textarea:focus:-ms-input-placeholder {
     height: 80px;
     padding: 10px;
     font-size: 30px;
+    margin: 0 1px;
 }
 
 .modal.show {
@@ -1713,7 +1724,6 @@ textarea:focus:-ms-input-placeholder {
     width: 30px;
     height: 34px;
 }
-    
 .modal__close:hover {
     transform: translateY(-3px);
 }
@@ -1742,4 +1752,37 @@ textarea:focus:-ms-input-placeholder {
     outline: none;
     border: 1px black solid;
     box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, .5);
+}
+
+@media (max-width: 513px) {
+
+    .form__input, .form__textarea {
+        padding: 15px 5px;
+        font-size: 20px;
+    }
+
+    .modal__form__textarea {
+        min-height: 120px;
+    }
+
+    .modal .btn {
+        height: 60px;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 380px) {
+
+    .form__input, .form__textarea {
+        font-size: 16px;
+    }
+
+    .modal__form__textarea {
+        min-height: 80px;
+    }
+
+    .modal .btn {
+        height: 55px;
+        font-size: 22px;
+    }
 }
