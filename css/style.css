@@ -110,6 +110,15 @@ body {
     margin: 10px 0;
 }
 
+.header.fixed .burger {
+    width: 40px;
+    padding: 10px 0;
+
+    top: 3px;
+    right: 10px;
+
+}
+
 .header__inner {
     display: flex;
     justify-content: space-between;
@@ -1137,8 +1146,6 @@ textarea:focus:-ms-input-placeholder {
 
 /* Credit cards */
 
-
-
 .cards__title {
     font-size: 40px;
     line-height: 38px;
@@ -1271,10 +1278,6 @@ textarea:focus:-ms-input-placeholder {
 
     .slider {
         padding: 10px 10px 10px 10px;
-    }
-
-    .cards__body {
-        height: 435px;
     }
 
     .cards__title {
