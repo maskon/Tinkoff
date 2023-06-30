@@ -174,3 +174,10 @@ $(function() {
 
 });
 
+document.addEventListener("DOMContentLoaded", function(event) {
+    let tab = document.querySelector(location.hash)
+    if (tab) {
+        tab.classList.add('active')
+    }
+});
+
